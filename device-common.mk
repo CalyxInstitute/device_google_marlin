@@ -642,3 +642,5 @@ PRODUCT_PACKAGES += \
     libbacktrace.vndk-sp\
     libunwind.vndk-sp\
     liblzma.vndk-sp\
+
+$(call inherit-product, calyx/common.mk)
